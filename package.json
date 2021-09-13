@@ -5,7 +5,9 @@
   "description": "Repro for a small issue with TypeScript's esModuleInterop configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "run-s :foo-lib:build :foo-app:build",
+    ":foo-app:build": "cd packages/foo-app && run-s build",
+    ":foo-lib:build": "cd packages/foo-lib && run-s build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,8 @@
   "homepage": "https://github.com/walkerburgin/ts-default-import-repro#readme",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
 }
