@@ -1,0 +1,23 @@
+{
+  "name": "@test/foo-lib",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Lib package",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "tsc -p src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walkerburgin/ts-default-import-repro.git"
+  },
+  "author": "Walker Burgin <walkerburgin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walkerburgin/ts-default-import-repro/issues"
+  },
+  "homepage": "https://github.com/walkerburgin/ts-default-import-repro#readme"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ts-default-import-repro",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Repro for a small issue with TypeScript's esModuleInterop configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walkerburgin/ts-default-import-repro.git"
+  },
+  "author": "Walker Burgin <walkerburgin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walkerburgin/ts-default-import-repro/issues"
+  },
+  "homepage": "https://github.com/walkerburgin/ts-default-import-repro#readme",
+  "workspaces": [
+    "packages/*"
+  ]
+}
