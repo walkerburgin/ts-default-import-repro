@@ -21,3 +21,7 @@ Found 1 error.
 ```
 
 In a perfect world, TypeScript would fail with a similar error for `src/importSucceedsWhenMaybeItShouldNot.ts`.
+
+## Links
++ https://github.com/microsoft/TypeScript/issues/41898
++ https://github.com/microsoft/TypeScript/issues/33954
